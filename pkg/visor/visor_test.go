@@ -54,7 +54,7 @@ func TestMain(m *testing.M) {
 //	conf := Config{Version: "1.0", LocalPath: "local", AppsPath: "apps"}
 //	conf.Node.StaticPubKey = pk
 //	conf.Node.StaticSecKey = sk
-//	conf.Messaging.Discovery = "http://skywire.skycoin.net:8001"
+//	conf.Messaging.Discovery = "http://skywire.skycoin.com:8001"
 //	conf.Messaging.ServerCount = 10
 //	conf.Transport.Discovery = srv.URL
 //	conf.Apps = []AppConfig{

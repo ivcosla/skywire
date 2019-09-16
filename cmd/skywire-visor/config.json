@@ -7,7 +7,7 @@
   "messaging": {
     "server": false,
     "public": true,
-    "discovery": "http://skywire.skycoin.net:8001",
+    "discovery": "http://skywire.skycoin.com:8001",
     "delegated_servers": [
       "03a714db33a696a1202de568485234d5035935040bd85a87925568e3ddd100f1e3",
       "02709cebf98a35431407068ee0740233224795315e3b218054431da80d9c827f07",

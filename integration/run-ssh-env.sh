@@ -7,7 +7,7 @@ tmux new -s skywire -d
 source ./integration/ssh/env-vars.sh
 
 echo "Checking transport-discovery is up"
-curl --retry 5  --retry-connrefused 1 --connect-timeout 5 https://transport.discovery.skywire.skycoin.net/security/nonces/$PK_A   
+curl --retry 5  --retry-connrefused 1 --connect-timeout 5 https://transport.discovery.skywire.skycoin.com/security/nonces/$PK_A
 
 tmux rename-window -t skywire NodeA
 tmux send-keys -t NodeA -l "./skywire-visor ./integration/ssh/nodeA.json --tag NodeA $SYSLOG_OPTS"

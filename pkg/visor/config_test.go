@@ -23,7 +23,7 @@ func TestMessagingDiscovery(t *testing.T) {
 	conf := Config{}
 	conf.Node.StaticPubKey = pk
 	conf.Node.StaticSecKey = sk
-	conf.Messaging.Discovery = "skywire.skycoin.net:8001"
+	conf.Messaging.Discovery = "skywire.skycoin.com:8001"
 	conf.Messaging.ServerCount = 10
 
 	c, err := conf.MessagingConfig()
